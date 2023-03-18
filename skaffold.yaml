@@ -7,7 +7,10 @@ deploy:
 build:
   local:
     push: false
+  # googleCloudBuild:
+  #   projectId: powerful-genre-380919
   artifacts: 
+    # - image: us.gcr.io/powerful-genre-380919/auth
     - image: alrobwilloliver/auth
       context: auth
       docker:

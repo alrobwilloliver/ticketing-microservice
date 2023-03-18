@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
+          # image: us.gcr.io/powerful-genre-380919/auth
           image: alrobwilloliver/auth
           imagePullPolicy: Never
           env:
